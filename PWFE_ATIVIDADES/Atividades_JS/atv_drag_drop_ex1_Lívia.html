@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag-and-Drop Example</title>
+  <style>
+    /* Estilizando os elementos */
+    .draggable {
+      width: 100px;
+      height: 50px;
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      margin: 10px;
+      cursor: grab;
+    }
+
+    .droppable {
+      width: 300px;
+      height: 200px;
+      border: 2px dashed #ccc;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="draggable" draggable="true" id="item1">Item 1</div>
+  <div class="draggable" draggable="true" id="item2">Item 2</div>
+
+  <div class="droppable" id="dropArea" ondrop="drop(event)" ondragover="allowDrop(event)">
+    Drop Zone
+  </div>
+
+  <script>
+    // Função para permitir a soltura de elementos
+    function allowDrop(event) {
+      event.preventDefault();
+    }
+
+    // Função para lidar com o evento de soltar
+    function drop(event) {
+      event.preventDefault();
+      var data = event.dataTransfer.getData("text");
+      var draggedElement = document.getElementById(data);
+      var dropZone = document.getElementById("dropArea");
+
+      // Adicionando o elemento arrastado na área de soltura
+      dropZone.appendChild(draggedElement);
+    }
+
+    // Adicionando eventos de arrastar aos elementos
+    var draggables = document.querySelectorAll('.draggable');
+    draggables.forEach(function(draggable) {
+      draggable.addEventListener('dragstart', function(event) {
+        event.dataTransfer.setData('text', event.target.id);
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: black;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.bloco{
+    display: flex;
+    color: white;
+    background-color: black ;
+    float: left;
+    clear: both;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    position: fixed;
+}

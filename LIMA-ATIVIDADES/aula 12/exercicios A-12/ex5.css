@@ -1,0 +1,13 @@
+body{
+    background-image: url(imagens/tecnologia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo{
+    background-color: white;
+    color: black;
+    margin-top: 300px;
+    width: 700px;
+    margin-left: 400px;
+}

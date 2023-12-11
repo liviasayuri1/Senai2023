@@ -1,0 +1,116 @@
+/*cabeçalho*/
+h1.cabecalho{
+    position:relative;
+    left:0;
+    top:0;
+    border: solid blueviolet;
+    background-color: rgb(199, 153, 242);
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+    height: 90px;
+    padding-top: 70px;
+    
+}
+
+/*informações do menu*/
+h2.menu{
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    height: 850px;
+    left: -8px;
+    top: -21px;
+    width: 350px;
+    border: 3px solid blue;
+    background-color: rgb(145, 145, 241);
+    padding-bottom: 10px; 
+    
+
+}
+
+/*informações do conteúdo*/
+h2.conteudo{
+    text-align: center;
+    position: relative;
+    margin-left: 240px;
+    margin-right: 100px;
+    height: 260px;
+    top: -905px;
+    left: 100px;
+    border: solid blue;
+    background-color: rgb(145, 145, 241);
+    padding-bottom: 300px;
+    padding-top: 300px;
+
+}
+
+/*desconsidera-se tivesse outra coluna*/
+h2.direitaa{
+    text-align: center;
+    position: relative;
+    margin-left: 800px;
+    margin-right:315px;
+    height: 260px;
+    left: 320px;
+    top: -1790px;
+    border: solid blue;
+    background-color: rgb(145, 145, 241);
+    padding-bottom: 300px;
+    padding-top: 300px;
+
+}
+
+/*rodape*/
+body{
+    min-height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: rgb(90, 90, 144);
+    color:rgb(236, 236, 236);
+    width:100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+div.caixa-menu{
+    position: relative;
+    text-align: center;
+    
+    
+    
+
+}
+
+
+
+/*inicio dos comando de artigo*/
+.vertical-menu{
+    width: 200px;
+}
+.vertical-menu a{
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover{
+    background-color: #ccc;
+}
+
+.vertical-menu a.active{
+    background-color: #FF00FF;
+    color: white;
+
+
+}

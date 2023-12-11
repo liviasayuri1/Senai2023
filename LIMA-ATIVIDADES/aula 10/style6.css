@@ -1,0 +1,37 @@
+p{font: size 12pt;}
+p::first-line{color:blue;font-variant: small-caps;}
+
+
+/*para colocar imagem antes e depois do texto*/
+h1::before{content:url(flor.jfif);}
+h1::after{content:url(flor.jfif);}
+
+
+/*para colocar imagem no meio do texto*/
+
+
+
+.paragrafo::after{
+    text-align: start;
+    display: inline;
+    content: url(flor.jfif);
+}
+
+.paragrafoo{
+    position: relative;
+    left: 555px;
+    bottom:50px;
+}
+
+/*outra*/
+.p::selection{
+    color: red;
+    background: rgb(107, 255, 122);
+}
+
+/*outra*/
+.div{
+    background-image: url(flor.jfif);
+    background-repeat: no-repeat;
+    background-position: right top;
+}

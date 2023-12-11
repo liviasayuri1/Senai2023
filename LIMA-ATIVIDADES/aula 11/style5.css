@@ -1,0 +1,32 @@
+img.esquerda{
+    float: left;
+    margin-right: 1.5cm rgb(255, 0, 157);
+
+}
+
+img.direita{
+    float: right;
+    margin-left: 1.5cm rgb(248, 138, 198);
+}
+
+h1.semiflutuacao{
+    clear: both;
+    text-align: center;
+}
+
+p.esq{
+    text-align: right;
+}
+
+img.center{
+    margin-left: 620px;
+    height: 300px;
+    width: 300px;
+}
+
+img.lateral{
+    position: relative;
+    margin: left 400px; ;
+    margin-top: 50cm;
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="css/ex1.css"> <!--puxa o código css-->
+</head>
+<body>
+    <div class="container"> <!--início do container css-->
+    <label for="dado">Informe seu CEP:</label><!--(label) - elemento formulário para inserir o CEP-->
+    <input type="text" id="dado"> <!--(input) - utilizado para coletar a informação CEP-->
+    <button onclick="informe()">Enviar</button> <!--(button) - botão para o envio do CEP-->
+    
+    <br><br><label>CEP:</label><input type="text"> <!--(LABEL) - elemento formulário -->
+    <br><label>Logradouro: </label><input type="text">
+    <br><label>Bairro:</label><input type="text">
+    <br><label>Cidade:</label><input type="text">
+    <br><label>Estado:</label><input type="text">
+    
+
+    <div id="informacoes"></div>
+
+    <script src="JS/script1.js"></script><!--(script) - utilizada para puxar o código java-->
+    
+    </div> <!--fim do container css-->
+
+</body>
+</html> 
+
+<!--EXPLICAÇÃO DO CÓDIGO-->
+<!--
+     H1 ---é o tamanho da maior fonte
+    
+    LABEL --- é considerado um elemento formulário
+
+    INPUT pode ser utilizado para coletar informações como nome, idade, genero, 
+    data, horário... também podendo ser utilizado para selecionar uma/varias opções
+    de algo, criação de algum botão, deixar algum campo de resposta vazio...
+
+    ONCLICK ---  é utilizado para que possa haver uma conexão entre a função
+     java e o html quando o botão for acionado pelo usuário
+
+    H3 é a terceira maior fonte
+
+    SCRIPT --- utilizada para puxar o conteúdo java
+-->

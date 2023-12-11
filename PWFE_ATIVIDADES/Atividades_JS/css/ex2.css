@@ -1,0 +1,11 @@
+body{
+    background-color: bisque;
+}
+
+.container{
+    height: 850px;
+    width: 850px;
+    background-color: antiquewhite;
+    margin-left: 330px;
+    
+}

@@ -1,0 +1,23 @@
+/*link não visitado*/
+a:link{color:#FF0000;}
+
+/*link visitado*/
+a:visited{color:#0F0;}
+
+/*mouse sobre o link*/
+a:hover{color:#FF00FF;}
+
+/*link selecionado*/
+a:active{color:#0000FF;}
+
+/*primeiro <p> de um elemento*/
+p:first-child{color:#0000FF;}
+
+/*primeiro <i> de todos os <p>*/
+p>i:first-child {color:#0000FF;}
+
+/*todos <i> do primeiro <p>*/
+p:first-child i{color:blue;}
+
+/*qualquer <input> com foco*/
+input:focus {background-color: yellow;}

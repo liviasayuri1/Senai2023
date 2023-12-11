@@ -1,0 +1,17 @@
+
+    <script>
+        function parcelas() {
+            var numero = document.getElementById("numero").value;
+            var resultado = document.getElementById("resultado");
+            
+            resultado.innerHTML = ""; // Limpa qualquer resultado anterior
+
+            for (var i = 1; i <= 10; i++) {
+                var divisao = numero / i;
+                resultado.innerHTML += numero + " / " + i + " = " + divisao + "<br>";
+            }
+        }
+    </script>
+    
+</body>
+</html>

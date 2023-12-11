@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+*{
+    border: 0;
+    margin: 0;
+
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( 180deg,  rgb(209,139,255), cyan);
+    background-size:  100%;
+    width: 1525px;
+    height: 800px;
+    border: 5px solid;
+
+}
+
+.container{
+    height: 70px;
+    background-color: white;
+    position: relative;
+    top: -365px;
+    left: 0px;
+    
+}
+#divBusca{
+    background-color: #E0EEEE;
+    border: solid 2px transparent;
+    border-radius: 10px;
+    width: 900px;
+    height: 32px;
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+
+#txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: #eeaced;
+    height: 32px;
+    width: 250px;
+}
+.lupa{
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+  .computer{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-left: 1100px;
+    margin-top: -30px;
+  }
+
+  .menu{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-left: 1200px;
+    margin-top: -60px;
+    opacity: 0.2;
+  }
+/*fim da parte de cima da pagina*/
+
+  /*formas geometricas*/
+
+#quadrado{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to top, rgba(91,253,239,0.4) 20%,rgba(0,255,0,0.8) 100%);
+    position: relative;
+    top: 530px;
+    left: -100px;
+}
+
+#circulo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(200,0,255,0.4) 20%,rgba(0,222,255,1) 100%);
+    position: relative;
+    top: 260px;
+    left: 1100px;
+}
+
+#triangulo{
+    width: 0px; 
+    height: 0px; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 180px solid Red;
+    opacity: 0.5;
+    position: relative;
+    top: 0px;
+    left: 50px;
+   
+}
+
+/*fim das formas geometricas*/
+.header{
+    border:5px solid transparent;
+    position: relative;
+    top: -550px;
+    height: 250px;
+   
+}
+
+.logotipo{
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 120px;
+}
+
+.titulo{
+    font-family: milonga;
+    position: relative;
+    left: 200px;
+    top: 15px;
+}
+
+.subtitulo{
+    font-family: milonga;
+    position: relative;
+    left: 200px;
+    top: 15px;
+    color: white;
+}
+.linhatop{
+    border-top: 2px solid aqua;
+    padding: 10px;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-right: 60px;
+    gap: 100px;
+    width: 1200px;
+    position: relative;
+    left: 60px;
+    }
+    .bola1{
+        height: 7px;
+        width: 7px;
+        background: aqua;
+        transform: rotate(45deg);
+        float: left;
+        position: relative;
+        top: -15px;
+        left: -12px;
+    }
+    .bola2{
+        height: 7px;
+        width: 7px;
+        background: aqua;
+        transform: rotate(45deg);
+        float: right;
+        position: relative;
+        top: -15px;
+        left: 10px;
+    }
+/*
+
+/*opcoes presentes acima da pagina*/
+
+
+
+*ul{
+    font-family: milonga;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 25px;
+    text-decoration: none;
+
+}
+
+nav ul li a{
+    color:black;
+    font-family: milonga;
+    text-decoration: none;
+    background-color: #37F3FF;
+    align-items: flex-start;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+.sobre{
+    position: relative;
+    left: 100px;
+    top: -552px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.catalogo{
+    position: relative;
+    left: 400px;
+    top: -570px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.ajuda{
+    position: relative;
+    left: 750px;
+    top: -590px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.login{
+    position: relative;
+    left: 1100px;
+    top: -610px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.lupaabaixo{
+   height: 40px;
+   width: 40px;
+   position: relative;
+   top: -680px;
+   left: 1460px;
+}
+
+/*conteudo*/
+    p#titulo{
+    font-family: milonga;
+    font-size: 60px;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    position: relative;
+    top: -600px;
+    left: 470px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    
+}
+.bloco{
+    border-radius: 10px;
+    background-color: rgba(255,255,255);
+    width: 800px;
+    height: 300px;
+    position: relative;
+    top: -600px;
+    left: 330px;
+    padding-top: 20px;
+}
+
+.txt{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    
+    /*margin-left:100px ;
+    margin-right: 100px;
+    margin-top: 100px;*/
+}
+
+.separacao1{
+    width: 600px;
+    border: 1px solid #7c86f5;
+    float: none;
+    align-content: space-around;
+    position: relative;
+    left: 100px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.quadradoo1{
+    height: 7px;
+    width: 7px;
+    background: #7c86f5;
+    transform: rotate(45deg);
+    float: left;
+    position: relative;
+    top: -5px;
+    left: -3px;
+}
+
+.quadradoo2{
+    height: 7px;
+    width: 7px;
+    background: #7c86f5;
+    transform: rotate(45deg);
+    float: right;
+    position: relative;
+    top: -5px;
+    left: -3px;
+}
+/*conteudo*/
+
+
+/*rodape*/
+    
+    .rodape{
+        position: absolute;
+        width: 1260.61px;
+        height: 0px;
+        left: 50px;
+        top: 750px;
+        border: 2px solid rgb(209,139,255);
+        transform: matrix(1, 0, 0.01, 1, 0, 0);
+        }
+
+        .bola3{
+            height: 7px;
+            width: 7px;
+            background: rgb(209,139,255);
+            transform: rotate(45deg);
+            float: left;
+            position: relative;
+            top: -5px;
+            left: -5px;
+        }
+        .bola4{
+            height: 7px;
+            width: 7px;
+            background: rgb(209,139,255);
+            transform: rotate(45deg);
+            float: right;
+            position: relative;
+            top: -4px;
+            left: 9px;
+        }
+        
+        
+
+.telefone{
+    font-family: milonga;
+    color: black;
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+
+.seguranca{
+    font-family: milonga;
+    color: black;
+    position: relative;
+    left: 400px;
+    top: -40px;
+}
+
+.avalie{
+    font-family: milonga;
+    color: black;
+    position: relative;
+    left: 700px;
+    top: -60px;
+}
+
+.fale{
+    font-family: milonga;
+    color: black;
+    position: relative;
+    left: 1000px;
+    top: -80px;
+}

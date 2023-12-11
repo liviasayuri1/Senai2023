@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Bem vindo! Aperte no botão para vizualizar o menu</p>
+    <button id="menuButton" aria-expanded="false">Menu</button>
+    <div id="menu" aria-hidden="true">
+        <ul>
+            <li><a href="#">shampoo</a></li>
+            <li><a href="#">condicionador</a></li>
+            <li><a href="#">mascara</a></li>
+            <li><a href="#">sabonete</a></li>
+            <li><a href="#">creme</a></li>
+        </ul>
+    </div>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        #menuButton[aria-expanded="true"]::after {
+            content: " -";
+        }
+        #menuButton[aria-expanded="false"]::after {
+            content: " +";
+        }
+        #menu[aria-hidden="true"] {
+            display: none;
+        }
+    </style>
+
+    <script>
+        const menuButton = document.getElementById("menuButton");
+        const menu = document.getElementById("menu");
+        menuButton.addEventListener("click", () => {
+            const expand = menuButton.getAttribute("aria-expanded") === "true";
+            menuButton.setAttribute("aria-expanded", String(!expand));
+            menu.setAttribute("aria-hidden", String(expand));
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( 180deg,  rgb(209,139,255), cyan);
+    height: 760px;
+    width: 500px;
+    background-size:  900% 100%;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin-top: -700px;
+    margin-left: 950px;
+    padding-left: 1450px;
+    padding-right: 140px;
+    padding-bottom: 40px;
+}
+
+.link{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1000px;
+    height: 30px;
+    margin-left: -1200px;
+    margin-top: 60px;
+    padding-left: 99px;
+}
+
+button {
+    position: absolute;   
+    top: 29px; 
+    right: 1310px;
+}
+
+/* Vector */
+
+.tv{
+    position: absolute;
+    left: 80.08%;
+    right: 15.79%;
+    top: 2.28%;
+    bottom: 94.95%;
+    width: 50px;
+    height: 50px;
+    color: black;
+    text-align: bottom;
+
+}
+
+.menu{
+    position: absolute;
+    left: 85.08%;
+    right: 15.79%;
+    top: 2.28%;
+    bottom: 97.95%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.Dropbtn{
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border: none;
+
+}
+
+/*.triangulo-top {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 125px solid #f0ad4e;
+}
+
+div.circulo {
+    width: 230px;
+    height: 230px;
+    border: 100px solid;
+    border-color: rgba(010, 010, 255, 0.2);
+    border-radius: 100%;
+    margin-left: -1800px;
+  }
+
+
+  div.quadrado {
+    width:130px;
+    height:130px;
+    border: 100px solid; 
+    border-color: rgba(000, 200, 000, 0.2); 
+    align-items: flex-start;
+
+    }*/
+
+    .header {
+        display: flex;
+        color: #f1f1f1;
+        width: 100%;
+        height: 500px;
+      }
+    .header img {
+        height: 150px;
+        width: 150px;
+        margin-left: -1370px;
+        margin-top: -30px;
+    }
+    .header h1{
+        font-family: milonga;
+        font-size: xx-large;
+        color: black;
+        margin-top: -10px;
+        margin-left: 40px;
+    }
+    
+    .header h4{
+        font-family: milonga;
+        color: white;
+        margin-top: 30px;
+        margin-left: -200px;
+    }
+    
+    #lupa{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left: -200px;
+        top: 300px;
+    }
+
+    ul{
+        font-family: milonga;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        align-items: center;
+        padding: 25px;
+    
+    }
+    
+    a{
+        color:white;
+        font-family: milonga;
+        text-decoration: none;
+        background-color: #37F3FF;
+        align-items: flex-start;
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: space-around;
+    }
+    
+    .sobre{
+        position: relative;
+        left: -1200px;
+        top: -100px;
+        border-radius: 15px;
+        
+    }
+    
+    .catalogo{
+        position: relative;
+        left: -1000px;
+        top: -115px;
+        border-radius: 15px;
+        
+    }
+    
+    .ajuda{
+        position: relative;
+        left: -750px;
+        top: -135px;
+        border-radius: 15px;
+    }
+    
+    .login{
+        position: relative;
+        left: -550px;
+        top: -155px;
+        border-radius: 15px;
+    }
+    
+    .linhavertical{
+        position: absolute;
+        width: 1260.61px;
+        height: 0px;
+        left: 102.34px;
+        top: 300px;
+        border: 2px solid #37F3FF;
+        transform: matrix(1, 0, 0.01, 1, 0, 0);
+        }
+    
+
+        * Page content */
+.content {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;    
+  }
+
+.content h4{
+    font-family: milonga;
+    color: white;
+    margin-top: -70px;
+    margin-left: -1500px;
+}
+    

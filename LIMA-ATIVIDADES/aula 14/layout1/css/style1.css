@@ -1,0 +1,165 @@
+.header {
+    display: flex;
+    background: orange;
+    color: #f1f1f1;
+    width: 1530px;
+    height: 130px;
+  }
+  
+  /* Page content */
+  .content {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+    
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+
+  /*barra de pesquisa*/
+  #divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    margin-left: -500px;
+    margin-top: 35px;
+    position: relative;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    margin-left: 12px;
+    margin-top: -3px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+    margin-left: 300px;
+    margin-top: -30px;
+  }
+  
+  #divBusca img{
+    float:left;
+    margin-left: 900px;
+  }
+
+
+  .home{
+   width: 50px;
+   height: 50px ;
+   margin-left: 40px;
+   margin-top: 30px;
+  }
+
+
+/*imagem de informação*/
+  .information{
+    height: 45px;
+    width: 45px;
+    margin-left: 40px;
+    margin-top: 33px;
+  }
+
+/*informações do form*/
+  .form{
+    position: relative;
+    margin-left: -3.5cm;
+    margin-top: 30px;
+    
+  }
+
+  /*imagem do carrinho de compras */
+  .carrinho{
+    height: 45px;
+    width: 45px;
+    margin-left: 1000px;
+    margin-top: 33px;
+  }
+
+  #pro{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+  }
+
+  #vc{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    color: greenyellow;
+  }
+
+
+
+
+
+
+
+
+
+/*
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 50px;
+    color: greenyellow;
+    height: 100px;
+    width: 500px;
+    float: left;
+    padding: 5px;
+    background-color: gray;
+    
+    
+
+
+}
+
+.flex-item1{
+    height: 70px;
+    width: 60px;
+    margin-left: 15px;
+}
+
+.flex-item2{
+    height: 70px;
+    width: 60px;
+    margin-left: 15px;
+}
+
+.texto-bloco {
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    background-color: gray;
+    color: greenyellow;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+*/

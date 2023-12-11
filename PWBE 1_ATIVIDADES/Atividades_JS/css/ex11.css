@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.estilo{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 220px;
+    width: 240px;
+    
+}
+label{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    height: 20px;
+    width: 190px;
+}
+
+input{
+    height: 13px;
+}
+
+h1{
+    font-size: 23px;
+}
+
+h3{
+    font-size: 14px;
+    position: relative;
+    top: 15px;
+    left: -430px;
+}
+
+#resultado{
+    margin-left: -500px;
+    margin-top: 45px;
+}

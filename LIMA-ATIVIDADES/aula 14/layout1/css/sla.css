@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( 45deg, blue, purple, violet, pink);
+    height: 430px;
+    background-size: 300% 300%;
+    animation: animacao 5s ease infinite;
+
+}
+
+@keyframes animacao {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+/*formas geometricas do fundo*/
+/*#circulo{
+    background-color: #4B0082;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#quadrado{
+    background: #4B0082;
+    width: 150px;
+    height: 150px;
+}
+
+#triangulo{
+    width: 150px;
+    height: 150px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 100px solid #4B0082;
+}*/
+
+
+.back{
+    background-color: #bc8ff9, #71c1f5, #5c5c5c;
+}

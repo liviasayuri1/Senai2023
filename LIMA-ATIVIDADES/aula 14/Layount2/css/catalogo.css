@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+*{
+    border: 0;
+    margin: 0;
+
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( 180deg,  rgb(209,139,255), cyan);
+    background-size:  100%;
+    width: 1525px;
+    height: 1100px;
+    border: 5px solid;
+
+}
+
+/*parte de cima ba pagina/barra de pesquisa*/
+.container{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: -520px;
+    left: 0px;
+    
+}
+#divBusca{
+    background-color: #E0EEEE;
+    border: solid 2px transparent;
+    border-radius: 10px;
+    width: 900px;
+    height: 32px;
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+
+#txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: #eeaced;
+    height: 32px;
+    width: 250px;
+}
+.lupa{
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+  .computer{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-left: 1100px;
+    margin-top: -30px;
+  }
+
+  .menu{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-left: 1200px;
+    margin-top: -60px;
+    opacity: 0.2;
+  }
+/*fim da parte de cima da pagina*/
+
+#circulo{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(0,222,255,1) 20%,rgba(200,0,255,0.41) 100%);
+    position: relative;
+    top: 500px;
+    left: 990px;
+}
+#circulo2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(0,222,255,1) 20%,rgba(200,0,255,0.41) 100%);
+    position: relative;
+    top: 100px;
+    left: 900px;
+}
+#circulo3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(198,198,0,0.4) 20%,rgba(255,255,0,1) 100%);
+    position: relative;
+    top: 150px;
+    left: 780px;
+}
+#circulo4{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(198,198,0,0.4) 20%,rgba(255,255,0,1) 100%);
+    position: relative;
+    top: -240px;
+    left: 590px;
+}
+
+/*inicio da parte de cima e opcoes*/
+
+.header{
+    border:5px solid transparent;
+    position: relative;
+    top: -810px;
+    height: 250px;
+   
+}
+.logotipo{
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.titulo{
+    font-family: milonga;
+    position: relative;
+    left: 160px;
+    top: -100px;
+}
+
+.subtitulo{
+    font-family: milonga;
+    position: relative;
+    left: 160px;
+    top: -100px;
+    color: white;
+}
+.linhatop{
+    border-top: 2px solid aqua;
+    padding: 10px;
+    height: 2px;
+    width: 1200px;
+    position: relative;
+    left: 70px;
+    top: -40px;
+    }
+
+    .bola1{
+        height: 7px;
+        width: 7px;
+        background: aqua;
+        transform: rotate(45deg);
+        float: left;
+        position: relative;
+        top: -15px;
+        left: -12px;
+    }
+    .bola2{
+        height: 7px;
+        width: 7px;
+        background: aqua;
+        transform: rotate(45deg);
+        float: right;
+        position: relative;
+        top: -15px;
+        left: 12px;
+    }
+
+    /*opcoes presentes acima da pagina*/
+*ul{
+    font-family: milonga;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 25px;
+    text-decoration: none;
+
+}
+
+nav ul li a{
+    color:black;
+    font-family: milonga;
+    text-decoration: none;
+    background-color: #37F3FF;
+    align-items: flex-start;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+
+.sobre{
+    position: relative;
+    left: 70px;
+    top: -910px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.catalogo{
+    position: relative;
+    left: 370px;
+    top: -930px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.ajuda{
+    position: relative;
+    left: 700px;
+    top: -950px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.login{
+    position: relative;
+    left: 1000px;
+    top: -970px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.lupaabaixo{
+   height: 40px;
+   width: 40px;
+   position: relative;
+   top: -680px;
+   left: 1460px;
+}
+
+/*conteudo*/
+.tituloo{
+    font-family: milonga;
+    font-size: 30px;
+    position: relative;
+    top: -850px;
+    left: 100px;
+
+}
+
+.bloco1{
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -1180px;
+    left: 500px;
+    font-family: milonga;
+    text-align: center;
+}
+.tamanho{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.valor{
+    text-align: center;
+    background-color: pink;
+    font-family: milonga;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: 65px;
+    left: 25px;
+}
+.valor2{
+    text-align: center;
+    background-color: rgb(114, 207, 247);
+    font-family: milonga;
+    width: 100px;
+    border-radius: 10px;
+    position: relative;
+    top: 65px;
+    left: 25px;
+}
+
+.bloco2{
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -1380px;
+    left: 750px;
+    font-family: milonga;
+    text-align: center;
+}
+.bloco3{
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -1580px;
+    left: 1000px;
+    font-family: milonga;
+    text-align: center;
+}
+.bloco4{
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -1500px;
+    left: 500px;
+    font-family: milonga;
+    text-align: center;
+}
+.bloco5{
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -1700px;
+    left: 750px;
+    font-family: milonga;
+    text-align: center;
+}
+.bloco6{
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -1900px;
+    left: 1000px;
+    font-family: milonga;
+    text-align: center;
+}
+
+.a{
+    width: 80px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-family: milonga;
+    padding-left: 15px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: milonga;
+    list-style-type: none;
+    align-items: self-start;
+    padding: 25px;
+    text-decoration: none;
+    position: relative;
+    top: -870px;
+    left: 85px;
+
+}
+/*rodape*/
+    
+.rodape{
+    position: absolute;
+    width: 1260.61px;
+    height: 0px;
+    left: 50px;
+    top: 950px;
+    border: 2px solid rgb(209,139,255);
+    transform: matrix(1, 0, 0.01, 1, 0, 0);
+    }
+    .bola3{
+        height: 7px;
+        width: 7px;
+        background: rgb(209,139,255);
+        transform: rotate(45deg);
+        float: left;
+        position: relative;
+        top: -4px;
+        left: -8px;
+    }
+    .bola4{
+        height: 7px;
+        width: 7px;
+        background: rgb(209,139,255);
+        transform: rotate(45deg);
+        float: right;
+        position: relative;
+        top: -4px;
+        left: 8px;
+    }
+
+.telefone{
+font-family: milonga;
+color: black;
+position: relative;
+left: 100px;
+top: -20px;
+}
+
+.seguranca{
+font-family: milonga;
+color: black;
+position: relative;
+left: 400px;
+top: -40px;
+}
+
+.avalie{
+font-family: milonga;
+color: black;
+position: relative;
+left: 700px;
+top: -60px;
+}
+
+.fale{
+font-family: milonga;
+color: black;
+position: relative;
+left: 1000px;
+top: -80px;
+}

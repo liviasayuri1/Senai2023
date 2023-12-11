@@ -1,0 +1,22 @@
+body{
+   font-family: impact;
+}
+
+m{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    background-color:rgb(249, 132, 249);
+    color:blue
+ }
+
+ h1,h2{
+    color:gray;
+
+ }
+
+ a{
+    color: #8b008b;
+
+ }

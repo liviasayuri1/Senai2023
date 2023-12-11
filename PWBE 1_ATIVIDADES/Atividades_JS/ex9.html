@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Adicionar Produtos na Lista</h2>
+    <label for="nome-produto">Nome do Produto</label>
+    <input type="text" id="nome-produto" name="nome-produto"><br>
+    <label for="preco-produto">Preço Produto</label>
+    <input type="number" id="preco-produto" name="preco-produto"><br>
+    <button onclick="adicionaProduto()">ADD Produto</button>
+
+    <!-- nossa lista de produtos-->
+    <h2>Lista de Produtos</h2>
+    <ul id="lista-produtos">
+    <!--aqui serao criados os itens da lista-->
+    </ul>
+
+    <!--editar campos-->
+    <h2>Editar dados da Lista</h2>
+    <label for="editar-nome-produto">Nome Produto</label>
+
+    <input type="text" id="editar-nome-produto" name="editar-nome-
+    produto"><br>
+
+    <label for="editar-preco-produto">Preço Produto</label>
+
+    <input type="number" id="editar-preco-produto" name="editar-preco-
+    produto"><br>
+
+    <button onclick="atualizarProduto()">Atualizar Produtos</button>
+
+    <!--excluir Produtos-->
+    <h2>Excluir dados da Lista</h2>
+    <select id="excluir-produto"></select>
+<button onclick="excluirProduto()">Excluir produtos--</button>
+
+
+    <script src="JS/script9.js"></script>
+</body>
+</html>

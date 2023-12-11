@@ -1,0 +1,18 @@
+.blocoesq{
+    background-color: black;
+    border: solid;
+    position: fixed;
+    padding: 50px 50px;
+    float: left;
+    clear:both;
+    color: white;
+}
+
+.titulo{
+    color: black;
+}
+
+
+.conteudo{
+    text-align: center;
+}

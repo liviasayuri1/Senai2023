@@ -1,0 +1,63 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: black 2px;
+
+
+
+}
+.esq{
+    display: flex;
+    color: black;
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+.dir{
+    display: flex;
+    background-color: purple;
+    width: 250px;
+    height: 250px;
+
+}
+
+.tudo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+
+.bai1{
+    display: flex;
+    color: black;
+    background-color: green ;
+    width: 250px;
+    height: 250px;
+}
+
+.bai2{
+    display: flex;
+    color: black;
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+}
+
+.tudo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+
+
+
+

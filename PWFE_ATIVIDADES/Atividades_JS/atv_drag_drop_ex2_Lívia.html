@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arraste e Solte os Personagens</title>
+  <style>
+    /* Estilo dos personagens */
+    .character {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      cursor: grab;
+    }
+
+    /* Área de soltura */
+    .scene {
+      width: 400px;
+      height: 300px;
+      border: 2px dashed #ccc;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+  <img class="character" src="character1.png" draggable="true" id="char1" alt="Personagem 1">
+  <img class="character" src="character2.png" draggable="true" id="char2" alt="Personagem 2">
+
+  <div class="scene" ondrop="drop(event)" ondragover="allowDrop(event)">
+    Arraste e solte os personagens aqui!
+  </div>
+
+  <script>
+    // Função para permitir a soltura de elementos
+    function allowDrop(event) {
+      event.preventDefault();
+    }
+
+    // Função para lidar com o evento de soltar
+    function drop(event) {
+      event.preventDefault();
+      var draggedCharacterId = event.dataTransfer.getData("text");
+      var draggedCharacter = document.getElementById(draggedCharacterId);
+
+      // Obtém as coordenadas do mouse em relação à cena
+      var mouseX = event.clientX - event.target.getBoundingClientRect().left;
+      var mouseY = event.clientY - event.target.getBoundingClientRect().top;
+
+      // Posiciona o personagem nas coordenadas do mouse
+      draggedCharacter.style.position = 'absolute';
+      draggedCharacter.style.left = mouseX - draggedCharacter.width / 2 + 'px';
+      draggedCharacter.style.top = mouseY - draggedCharacter.height / 2 + 'px';
+
+      // Adiciona o personagem à cena
+      event.target.appendChild(draggedCharacter);
+    }
+
+    // Adicionando eventos de arrastar aos personagens
+    var characters = document.querySelectorAll('.character');
+    characters.forEach(function(character) {
+      character.addEventListener('dragstart', function(event) {
+        event.dataTransfer.setData('text', event.target.id);
+      });
+    });
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+div.caixaum{
+    background-color: lightgray;
+    width:300px;
+    padding:50px;
+    border:10px dotted navy;
+    margin: 25px;
+    text-align: justify;
+    text-indent: 1.25cm;
+}
+
+/*outro teste*/
+div.caixaum{
+    background-color: lightgray;
+    width: 600px;
+    padding:100px;
+    border-width: 30px blue;
+    margin: 25px;
+    text-align: justify;
+    text-indent: 1.25cm;
+}

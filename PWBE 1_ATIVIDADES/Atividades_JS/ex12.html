@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natação</title>
+
+    <style>
+    body{
+    /*background-color: rgb(127, 255, 255);*/
+    background-image: url(IMG/água.avif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: black;
+    }
+
+    .container{
+        margin-top: 220px;
+        margin-left: 400px;
+        margin-right: 400px;
+        border-style: solid;
+        border-color: black;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <h1>Natação</h1>
+    <label for="">
+        Nome: <input type="text" id="nome">
+        Idade: <input type="number" id="idade">
+        <button onclick="submit()">Categoria do atleta</button>
+        <p id="ficha"></p>
+        <p id="categoria"></p>
+    </label>
+    <script src="JS/script12.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+p::selection{color:red;background-color: yellow;}
+
+
+/*nova atividade*/
+div{
+    background-image: url(flor.jfif);
+    background-repeat: no-repeat;
+    background-position: right top;
+}

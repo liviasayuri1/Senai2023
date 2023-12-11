@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #151320;
+}
+
+.caixa{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  color: white;
+  background-color: #151320;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font: bold 2em 'century gothic';
+  text-transform: uppercase;
+}
+
+.caixa::before, .caixa::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: calc(100%+30px);
+  height: calc(100%+30px);
+  background: linear-gradient(45deg, yellow, green, blue, yellow, green, #0099ff, #001aff, #a200ff);
+  background-size: 300%;
+  border-radius: 8px;
+  animation: 8s linear infinite;
+}
+
+@keyframes AnimarBorda {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+
+.caixa::after{
+  filter: blur(50px);
+}

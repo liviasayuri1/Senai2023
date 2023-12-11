@@ -1,0 +1,20 @@
+h1.removed {display: none; border: 2px solid red}
+h1.hidden{visibility: hidden; border: 2px solid blue}
+
+
+
+
+
+li{display:inline;} /*li  versão inline*/
+span{display: block;} /*span versão em bloco*/
+
+
+li{display: inline;}
+
+img{
+    opacity:0.4;
+}
+
+img:hover{
+    opacity:50;
+}

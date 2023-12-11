@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="CSS/exercicios.css">
+</head>
+<body>
+    <!--INÍCIO DO FORMULÁRIO FEITO POR MIM-->
+    <!--COMENTÁRIO
+    <form method="get" action="#">
+        <label><b>Consulta de CEP</b></label>
+        <br>Informe o CEP: <input type="text">
+        <br>Logradouro: <input type="text">
+        <br>Bairro: <input type="text">
+        <br>Cidade: <input type="text">
+        <br>Estado: <input type="text">
+    </form>
+    COMENTÁRIO-->
+    <!--FIM DO FORMULÁRIO FEITO POR MIM-->
+
+
+    <!--INÍCIO DO FORMULÁRIO FEITO COM O PROFESSOR-->
+    <form method="get" action=".">
+
+        <br>
+        <label>CEP:
+            <input name="cep" type="text" id="cep" value="" size="10"
+             maxlength = "9" onblur="pesquisacep(this.value);">
+        </label>
+
+        <br>
+        <label>RUA:
+            <input name="rua" type="text" id="rua" value="" size="70">
+        </label>
+
+        <br>
+        <label>BAIRRO: 
+            <input name="bairro" type="text" id="bairro" value="" size="70">
+        </label>
+
+        <br>
+        <label>CIDADE: 
+            <input name="cidade" type="text" id="cidade" value="" size="50">
+        </label>
+
+        <br>
+        <label>ESTADO: 
+            <input name="uf" type="text" id="uf" value="" size="2">
+        </label>
+    </form>
+    <script src="JS/script5.js"></script>
+</body>
+</html>

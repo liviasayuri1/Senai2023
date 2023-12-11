@@ -1,0 +1,39 @@
+.blocoesq{
+    background-color: red;
+    border: solid;
+    position: absolute;
+    padding: 50px 50px;
+    float: left;
+    clear:both;
+}
+
+
+.blocodir{
+    background-color: purple;
+    border: solid;
+    position: relative;
+    padding: 50px 50px;
+    margin-left: 1300px;
+}
+
+.bordabai{
+    background-color: greenyellow;
+    border: solid;
+    position: absolute;
+    padding: 50px 50px;
+    margin-left: 0px;
+    margin-top: 400px;
+    display: block;
+}
+
+.bordabaix{
+    background-color:yellow;
+    border: solid;
+    position: relative;
+    padding: 50px 50px;
+    margin-left: 1300px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

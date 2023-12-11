@@ -1,0 +1,41 @@
+body{
+    background-color: #C1AC99;
+    border: solid 4px white  ;
+    padding-bottom: 10%;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.margem1{
+    color: white;
+    border-style:outset ;
+    width: 600px;
+    height: 400px;
+    border: double white 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.imagem{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
